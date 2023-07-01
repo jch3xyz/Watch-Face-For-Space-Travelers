@@ -1,1 +1,11 @@
 # Watch-Face-For-Space-Travelers
+
+The idea behind this project was to reimagine a way to keep track of time. I started think about how our sense of time is entirely based on our individual position on earth relative to the sun. We even have different time zones because different areas all have different positions relative to the sun. Even though "now" could be considered the same for all of these areas, the clocks will show different times, because they are at different positions relative to the sun. Then I started thinking about how one might tell time in an in an interplanetary, or an intergalactic society. They would need to use some kind of "Universal" time scale. 
+
+I decided to base time on how many seconds have passed since the creation of the universe at the big bang. I wanted to count this in seconds, because, in theory, an atomic second could be considered universal. Though, I know that this program is not counting in atomic seconds. I used a 16 digit hexadecimal number to represent this unfathomable amount of seconds because, to my suprise, the amount of numbers that can be represented with 16 digits of hexadecimal is exponentially larger than the number of seconds there have been since the big bang. We're curerntly only using 14 of the digits. 
+
+Of course, this rudimentary program is not entirely accurate. Even the estimate we have for the age of the universe (13.7 billion years) has an uncertainty of +- 200 million years. In the end, this may not be truly feasible as a "Universal" way to tell time. I'm also aware that, according to Einstein's special relativity, there's no real since of the word "now" that can be applied to different points in space, because it is not space, it is space-time. At least, that's my rudimentary understanding of it. In the future this would have to be accounted for some how, but I'm not smart enough to do it. 
+
+I added the earth's orbit around the sun, and the earth's rotation around it's axis, in the form of arcs that complete 360 degree rotations. This is because, I imagined this watch model to be worn by Space Travellers that hailed from Earth, and that they might want to know what the relative time back home was, what season it was, etc. 
+
+Live Sketch: https://editor.p5js.org/jcholmes/sketches/opR3gwHUl 
